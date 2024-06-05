@@ -47,7 +47,9 @@ defmodule Bobo.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:plug_cowboy, "~> 2.5"},
-      {:httpoison, "~> 2.0"}
+      {:httpoison, "~> 2.0"},
+      {:ash, "~> 3.0"},
+      {:picosat_elixir, "~> 0.2"}
     ]
   end
 
